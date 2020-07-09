@@ -40,7 +40,7 @@ export default class Composer extends React.Component {
   render() {
     return (
       <textarea
-        testID={this.props.placeholder}
+        //testID={this.props.placeholder}
         accessible
         onKeyDown={e => this.onKeyDown(e)}
         accessibilityLabel={this.props.placeholder}
