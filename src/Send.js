@@ -10,12 +10,12 @@ export default function Send({ text, containerStyle, onSend, children, textStyle
   if (alwaysShowSend || text.trim().length > 0) {
     return (
       <TouchableOpacity
-        testID="send"
+        //testID="send"
         accessible
         accessibilityLabel="send"
         style={{ ...styles.container, ...containerStyle }}
         onPress={() => {
-          console.log('asdasdasd')
+          //console.log('asdasdasd')
           onSend({ text: text.trim() }, true);
         }}
         accessibilityTraits="button"
